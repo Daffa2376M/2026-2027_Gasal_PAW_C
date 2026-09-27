@@ -1,1 +1,0 @@
-<?php function minheight($default = 50) {echo $default;} minheight();?>

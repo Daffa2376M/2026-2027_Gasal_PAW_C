@@ -1,1 +1,0 @@
-<?php $txt = '<h1>W3schools.com</h1>'; echo "$txt"; ?>
