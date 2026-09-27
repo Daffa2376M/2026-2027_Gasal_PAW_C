@@ -1,3 +1,6 @@
+<?php 
+// ini non-embedded script
+echo "<h1>Hello World</h1>"; ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -6,6 +9,10 @@
 	<title>soal 2</title>
 </head>
 <body>
-<?php echo "hello world" ?>
+	<h1>
+		<?php 
+		// ini embbeded script
+		echo "hello world" ?>
+	</h1>
 </body>
 </html>
