@@ -3,9 +3,16 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>soal 2</title>
+	<title>soal3</title>
 </head>
 <body>
-<?php echo "hello world" ?>
+	<?php
+	$angka = 0;
+
+	do {
+		echo "$angka <br>";
+		$angka += 4;
+	} while ($angka <= 20);
+	?>
 </body>
 </html>
