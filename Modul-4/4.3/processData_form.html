@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Data Pribadi</title>
+</head>
+<body>
+    <h2>Formulir Data Pribadi</h2>
+    <form action="processData.php" method="POST">
+        <p>
+            <label for="surname">Surname:</label><br>
+            <input type="text" id="surname" name="surname">
+        </p>
+        <p>
+            <label for="email">Email address:</label><br>
+            <input type="text" id="email" name="email">
+        </p>
+        <p>
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password">
+        </p>
+        <p>
+            <label for="address">Street Address:</label><br>
+            <textarea id="address" name="address" rows="3" cols="35"></textarea>
+        </p>
+        <p>
+            <label for="state">State:</label><br>
+            <select id="state" name="state">
+                <option value="">-- Pilih State --</option>
+                <option value="New South Wales">New South Wales</option>
+                <option value="Victoria">Victoria</option>
+                <option value="Queensland">Queensland</option>
+                <option value="South Australia">South Australia</option>
+                <option value="Western Australia">Western Australia</option>
+                <option value="Tasmania">Tasmania</option>
+                <option value="Northern Territory">Northern Territory</option>
+                <option value="ACT">Australian Capital Territory</option>
+            </select>
+        </p>
+        <input type="hidden" name="country" value="Australia">
+        <p>
+            Gender:<br>
+            <label><input type="radio" name="gender" value="Male"> Male</label>
+            <label><input type="radio" name="gender" value="Female"> Female</label>
+        </p>
+        <p>
+            <label><input type="checkbox" name="vegetarian" value="Yes"> Vegetarian?</label>
+        </p>
+        <p>
+            <input type="submit" name="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </p>
+    </form>
+</body>
+</html>
