@@ -1,4 +1,5 @@
 <?php
+/** @var string $pageTitle */
 $pageTitle ??= 'TP5';
 $navTables = schema();
 $navFlash = takeFlash();

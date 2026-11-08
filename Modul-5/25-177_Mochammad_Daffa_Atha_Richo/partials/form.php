@@ -1,3 +1,13 @@
+<?php
+/** @var PDO $pdo */
+/** @var array $config */
+/** @var array $values */
+/** @var array $errors */
+/** @var string $action */
+/** @var string $submitLabel */
+/** @var string $cancelUrl */
+/** @var bool $editing */
+?>
 <?php if ($errors): ?>
     <div class="alert alert-danger">Periksa kembali data yang diisi.</div>
 <?php endif; ?>

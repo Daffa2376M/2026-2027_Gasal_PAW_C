@@ -1,6 +1,11 @@
 <?php
 declare(strict_types=1);
 
+/*
+ * Pengaturan koneksi database.
+ * Nilai default cocok untuk MySQL/MariaDB lokal (XAMPP: root tanpa password).
+ * Bisa diubah lewat environment variable tanpa menyentuh file ini.
+ */
 $host = getenv('TP5_DB_HOST') ?: '127.0.0.1';
 $port = getenv('TP5_DB_PORT') ?: '3306';
 $name = getenv('TP5_DB_NAME') ?: 'tp5';

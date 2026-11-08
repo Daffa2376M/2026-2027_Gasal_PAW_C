@@ -1,6 +1,15 @@
 <?php
 declare(strict_types=1);
 
+/**
+ * Definisi tabel yang dipakai halaman tabel.php, tambah.php, edit.php, dan hapus.php.
+ *
+ * - primary    : kolom primary key (bisa lebih dari satu)
+ * - fields     : kolom form; 'auto' => true tidak tampil di form,
+ *                'form' => false hanya tampil di halaman daftar (hasil join)
+ * - list.sql   : query daftar; wajib mengembalikan kolom primary key
+ * - list.columns: urutan kolom yang ditampilkan setelah kolom "No"
+ */
 return [
     'supplier' => [
         'title' => 'Data Master Supplier',

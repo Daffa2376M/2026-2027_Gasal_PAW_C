@@ -1,3 +1,9 @@
+-- Tugas Praktikum 5 - Modul Database
+-- Skema database aplikasi penjualan sederhana.
+--
+-- Impor dari terminal : mysql -u root -p < database/tp5.sql
+-- Impor dari phpMyAdmin: pilih tab Import, unggah file ini.
+
 CREATE DATABASE IF NOT EXISTS tp5
   DEFAULT CHARACTER SET utf8mb4
   DEFAULT COLLATE utf8mb4_unicode_ci;
